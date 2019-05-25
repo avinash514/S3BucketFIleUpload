@@ -3,4 +3,4 @@ amazonProperties:
   accessKey: AKIAJLKGOJ7DXPX4PLUQ
   secretKey: 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
   bucketName: s3-bucket-test-web
-  region: us-east-2
+  region: us-east-2b
