@@ -24,7 +24,7 @@ pipeline {
 				sh 'mvn clean install -Dmaven.test.skip=true'
 			}
 		}
-		stage('Sonar Build){
+		stage('Sonar Build'){
 		      steps{
 		      	println "This is Sonar Build Stage"
 		      }
