@@ -9,7 +9,7 @@ pipeline {
 	        steps{
 				println "Checkout Stage"
 				
-        checkout scm
+        //checkout scm
 				//checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'GITHUB', url: 'https://github.com/avinash514/S3BucketFIleUpload.git']]])
 				script{
 					sampleStage()
@@ -28,4 +28,6 @@ pipeline {
 
 def sampleStage(){
 	println "This is Sample stage"
+	chekout scm
+	println "Hi Hema"
 }
