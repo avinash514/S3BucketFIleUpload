@@ -1,6 +1,6 @@
 amazonProperties:
   endpointUrl: https://s3.us-east-2.amazonaws.com
-  accessKey: AKIAJLKGOJ7DXPX4PLUQ
-  secretKey: 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
+  accessKey: 
+  secretKey: 
   bucketName: s3-bucket-test-web
   region: us-east-2b
